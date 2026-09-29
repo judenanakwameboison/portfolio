@@ -44,5 +44,3 @@ Add your live portfolio link here when ready:
 - https://judenanakwameboison.github.io/portfolio/
 
 ---
-
-You can replace the placeholder link and customize this file for your GitHub profile or repository.
