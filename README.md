@@ -41,7 +41,7 @@ This portfolio is currently being updated and improved.
 
 Add your live portfolio link here when ready:
 
-- https://your-portfolio-link.com
+- https://judenanakwameboison.github.io/portfolio/
 
 ---
 
