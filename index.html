@@ -42,7 +42,7 @@ nav.open .mb span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
 .st2{background-size:70% 70%;opacity:.5;animation:tw 4s ease-in-out infinite}
 @keyframes tw{50%{opacity:.15}}
 .hero .moon{left:50%;width:min(34vw,320px);aspect-ratio:1;margin-left:calc(min(34vw,320px)/-2);top:44%;border-radius:50%;background:radial-gradient(circle at 38% 34%,#fff,#dbe8ff 60%,#9dbcff);box-shadow:0 0 120px 40px rgba(120,170,255,.4)}
-.hero .mist{width:130%;left:-15%;height:170px;background:radial-gradient(60% 100% at 30% 50%,rgba(255,255,255,.2),transparent),radial-gradient(50% 100% at 75% 40%,rgba(120,170,255,.25),transparent);filter:blur(14px)}
+.hero .mist{width:120%;left:-10%;height:170px;background:radial-gradient(60% 100% at 30% 50%,rgba(255,255,255,.2),transparent),radial-gradient(50% 100% at 75% 40%,rgba(120,170,255,.25),transparent);filter:blur(14px)}
 .hill{bottom:-2px}
 .hill svg{width:100%;height:100%;display:block}
 .hero .chip{width:auto;left:auto;white-space:nowrap;z-index:4;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);backdrop-filter:blur(6px);color:#fff;padding:8px 16px;border-radius:99px;font-weight:700;font-size:.9rem}
@@ -96,7 +96,7 @@ nav.open .mb span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
 .bw .pg b{display:block;font:900 1.7rem var(--serif);line-height:1.1;max-width:75%}
 .bw .pg s{display:block;height:9px;border-radius:5px;background:rgba(255,255,255,.4);margin-top:12px;width:60%}
 .bw .pg u{display:inline-block;margin-top:18px;padding:8px 18px;border-radius:99px;background:#fff;text-decoration:none}
-.ss{position:absolute;left:0;top:26px;width:100%;height:calc(100% - 26px);object-fit:cover;object-position:center;z-index:2;background:#f1f5f9;border-radius:12px 12px 0 0;transform:scale(1.03);filter:saturate(1.04) contrast(1.02)
+.ss{position:absolute;left:0;top:26px;width:100%;height:calc(100% - 26px);object-fit:cover;object-position:center;z-index:2;background:#f3f4f6;border-radius:12px 12px 0 0;transform:scale(1.02)}
 .num{font:900 1rem var(--serif);color:var(--sky)}
 .pj h3{font-size:clamp(1.9rem,3.6vw,2.8rem);font-weight:900;margin:8px 0 14px}
 .pj p{opacity:.82;margin-bottom:10px}
@@ -153,13 +153,18 @@ section{padding:80px 0}
 .hero .chip{display:none}
 .band{height:80vh;min-height:460px}}
 @media(max-width:480px){
-.btn{padding:13px 22px}
-.btns{gap:10px}
+.wrap{padding:0 16px}
+.btn{padding:13px 22px;width:100%}
+.btns{gap:10px;flex-direction:column}
+.hero-copy{padding:0 12px}
 .hero-copy p{font-size:1rem}
 .stats{gap:24px}
 .sh{height:250px}
 .bw .pg b{font-size:1.25rem}
-section{padding:64px 0}}
+section{padding:64px 0}
+.hero .mist{width:120%;left:-10%}
+.hero .moon{width:180px}
+.soc a{flex:1 1 140px;text-align:center}}
 @media(hover:none){.sv .c:hover{transform:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.mq div,.st2{animation:none}.js .rv{opacity:1;transform:none;transition:none}}
 </style>
