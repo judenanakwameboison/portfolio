@@ -2,11 +2,11 @@
 
 ## Portfolio Website
 
-This is my personal portfolio website, showcasing my work as a web developer and my projects in business websites, school systems, and management solutions.
+This is my personal portfolio website, showcasing my work as a Software developer and my projects in business websites, school systems, and management solutions.
 
 ## About Me
 
-I am a web developer based in Ghana, focused on building modern, responsive, and user-friendly websites for businesses and organizations. I enjoy creating digital experiences that are clean, functional, and effective for real-world use.
+I am a Software developer based in Ghana, focused on building modern, responsive, and user-friendly softwares for businesses and organizations. I enjoy creating digital experiences that are clean, functional, and effective for real-world use.
 
 ## Skills
 
@@ -39,7 +39,6 @@ This portfolio is currently being updated and improved.
 
 ## Website
 
-Add your live portfolio link here when ready:
 
 - https://judenanakwameboison.github.io/portfolio/
 
